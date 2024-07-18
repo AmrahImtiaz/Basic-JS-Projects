@@ -1,0 +1,42 @@
+form{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: small;
+    background-color: hsl(60, 100%, 98%);
+    margin: auto;
+    text-align: center;
+    box-shadow: 5px 5px 15px hsl(0, 0%, 8%);
+    max-width: 350px;
+    padding: 25px;
+    border-radius: 10px;
+
+}
+
+#textbox{
+
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #525252;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+
+}
+
+label{
+    font-size: medium;
+    font-weight: bold;
+    margin: auto;
+    padding: 25px;
+
+}
+
+button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: indianred;
+    color:black;
+    padding: 14px 20px;
+    box-shadow: 5px 15px 10px hsl(168, 100%, 92%) ;
+    border-radius: 10px;
+}

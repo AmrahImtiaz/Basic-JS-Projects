@@ -1,0 +1,42 @@
+body {
+    background-image: url("bggif.gif");
+    background-color: #272727;
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+
+.dicerollergame{
+    background-color: rgb(255, 255, 255);
+    margin-top:30px;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    font-size: 20px;
+    border-radius: 20px;
+    width: 690px;
+    height: 690px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img{
+    width: 180px;
+}
+
+button{
+    border-radius: 5px;
+    font-size: large;
+    border: none;
+    box-shadow: 2px 2px 2px hsl(0, 0%, 13%);
+    background-color: hsl(216, 100%, 61%);
+    color: azure;
+}
